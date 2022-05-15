@@ -61,19 +61,7 @@ public class userAPI extends HttpServlet {
 	/**
 	 * @see HttpServlet#doPost(HttpServletRequest request, HttpServletResponse response)
 	 */
-	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-		//sending values to insert function
-		String output = itemObj.insertUser(	request.getParameter("CustomerfName"),
-											request.getParameter("CustomerlName"),
-											request.getParameter("AccountNumber"),
-											request.getParameter("CustomerNIC"),
-											request.getParameter("CustomerEmail"),
-											request.getParameter("CustomerPhone"));
-											
-		//sending the output to client
-		response.getWriter().write(output);
-	}
-
+	
 	/**
 	 * @see HttpServlet#doPut(HttpServletRequest, HttpServletResponse)
 	 */
