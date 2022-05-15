@@ -45,7 +45,7 @@ public class user {
         	//preparedStatement.setInt(1, 0); 
         	preparedStatement.setString(1, CustomerfName);
         	preparedStatement.setString(2, CustomerlName);
-        	preparedStatement.setString(3,AccountNumber);
+        	preparedStatement.setString(3, AccountNumber);
         	preparedStatement.setString(4, CustomerNIC);
         	preparedStatement.setString(5, CustomerEmail);
         	preparedStatement.setString(6, CustomerPhone);
@@ -86,7 +86,7 @@ public class user {
         	PreparedStatement preparedStatement = conn.prepareStatement(query);
         	preparedStatement.setString(1, CustomerfName);
         	preparedStatement.setString(2, CustomerlName);
-        	preparedStatement.setString(3,AccountNumber);
+        	preparedStatement.setString(3, AccountNumber);
         	preparedStatement.setString(4, CustomerNIC);
         	preparedStatement.setString(5, CustomerEmail);
         	preparedStatement.setString(6, CustomerPhone);
