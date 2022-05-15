@@ -65,16 +65,7 @@ $("#formItem")[0].reset();
 
 
 // UPDATE==========================================
-$(document).on("click", ".btnUpdate", function(event)
-		{ 
-		$("#hidCustomerIDSave").val($(this).data("customerid")); 
-		 $("#CustomerfName").val($(this).closest("tr").find('td:eq(0)').text()); 
-		 $("#CustomerlName").val($(this).closest("tr").find('td:eq(1)').text()); 
-		 $("#AccountNumber").val($(this).closest("tr").find('td:eq(2)').text()); 
-		 $("#CustomerNIC").val($(this).closest("tr").find('td:eq(3)').text());
-		$("#CustomerEmail").val($(this).closest("tr").find('td:eq(4)').text());
-		$("#CustomerPhone").val($(this).closest("tr").find('td:eq(5)').text()); 
-		});
+
 
 
 
